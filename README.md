@@ -1,6 +1,7 @@
-# FAOStat-Dataset-Time-Series
+### FAOStat-Dataset-Time-Series
+# Forecasting Food Production: Analyzing Trends, Challenges, and Opportunities in East Africa
 
-![download](https://github.com/Muramati/FAOStat-Dataset-Time-Series/assets/70520367/492aec30-97cf-4682-ac2b-248ade6c320e)
+![yfood_outlook_june23_pr_banner](https://github.com/Muramati/FAOStat-Dataset-Time-Series/assets/70520367/30563c28-b0dd-4a1f-ad03-4e45385f8d1b)
 
 
 ## Business Understanding 
