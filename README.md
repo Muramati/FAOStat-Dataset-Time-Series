@@ -17,20 +17,19 @@ The project aims to provide insights into the supply chain dynamics of different
 
 
 ### Objectives
-
-The objectives of the prediction model for food production in Kenya are as follows:
-
+#### Main objectives 
 1. Forecasting Food supply balances : The primary objective of the model is to accurately predict food supply balances  in Kenya. By analyzing historical data, current conditions, and relevant variables, the model aims to provide forecasts that reflect the expected domestic supply quantity, imports and exports over a range of years.
-2.Enhancing Food Security: Ultimately, the objective of the prediction model is to contribute to improving food security in Kenya. By accurately forecasting food production and assessing sufficiency, the model aims to support proactive measures that ensure a consistent and adequate food supply for the growing population.
+#### Specific objectives 
 
-3. Assessing Food Sufficiency: The model seeks to determine whether the projected food balances  will be sufficient to meet the needs of the population. It aims to assess the adequacy of food supply in order to identify potential shortfalls or surpluses.
+1. To Assess Food Sufficiency: The model seeks to determine whether the projected food supply will be sufficient to meet the needs of the population. It aims to assess the adequacy of food supply in order to identify potential shortfalls or surpluses.
+   
+2. To Inform Decision-Making: The model aims to provide valuable insights to policymakers, government agencies, and agricultural stakeholders. By offering reliable predictions, the model can inform decision-making processes related to resource allocation, import/export planning, and interventions to ensure food security.
 
-4. Informing Decision-Making: The model aims to provide valuable insights to policymakers, government agencies, and agricultural stakeholders. By offering reliable predictions, the model can inform decision-making processes related to resource allocation, import/export planning, and interventions to ensure food security.
+3. To Optimize Resource Allocation: The model aims to optimize the allocation of resources by identifying times of potential food shortages or surpluses. This can help in planning for the future. 
 
-5. Optimizing Resource Allocation: The model aims to optimize the allocation of resources by identifying areas of potential food shortages or surpluses. This can help in directing resources, such as irrigation, fertilizers, and agricultural investments, to areas that require them the most.
+4. To Enhance Food Security: Ultimately, the objective of the prediction model is to contribute to improving food security in East Africa. By accurately forecasting food production and assessing sufficiency, the model aims to support proactive measures that ensure a consistent and adequate food supply for the growing population.
 
-6. Promoting Sustainable Farming Practices: By considering various factors that impact food production, such as climate conditions and agricultural practices, the model can promote sustainable farming techniques. It can provide recommendations for resilient and environmentally-friendly practices that enhance productivity while minimizing negative impacts.
-
+These objectives collectively aim to provide valuable insights, aid decision-making processes, and contribute to long-term food security in East Africa.
 
 ### Success metrics
 - Root Mean Square Error (RMSE): RMSE calculates the square root of the average squared difference between the predicted values and the actual values. It gives an estimate of the model's prediction error, with lower values indicating better performance.
