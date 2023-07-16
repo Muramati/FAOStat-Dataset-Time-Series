@@ -1,4 +1,5 @@
 ### FAOStat-Dataset-Time-Series
+##### project authors : DATA JEDIS 
 # Forecasting Food Production: Analyzing Trends, Challenges, and Opportunities in East Africa
 
 ![yfood_outlook_june23_pr_banner](https://github.com/Muramati/FAOStat-Dataset-Time-Series/assets/70520367/30563c28-b0dd-4a1f-ad03-4e45385f8d1b)
@@ -20,7 +21,6 @@ The project aims to provide insights into the supply chain dynamics of different
 The objectives of the prediction model for food production in Kenya are as follows:
 
 1. Forecasting Food supply balances : The primary objective of the model is to accurately predict food supply balances  in Kenya. By analyzing historical data, current conditions, and relevant variables, the model aims to provide forecasts that reflect the expected domestic supply quantity, imports and exports over a range of years.
-   
 2.Enhancing Food Security: Ultimately, the objective of the prediction model is to contribute to improving food security in Kenya. By accurately forecasting food production and assessing sufficiency, the model aims to support proactive measures that ensure a consistent and adequate food supply for the growing population.
 
 3. Assessing Food Sufficiency: The model seeks to determine whether the projected food balances  will be sufficient to meet the needs of the population. It aims to assess the adequacy of food supply in order to identify potential shortfalls or surpluses.
@@ -56,6 +56,7 @@ A snippet of some of the  columns:
 ### Explanatory Data Analysis
 ##### Top 10 Items Produced in Eastern Africa
 ![1](https://github.com/Muramati/FAOStat-Dataset-Time-Series/assets/99483846/7c324e49-febb-44e6-8f47-fcb008560297)
+
 $ inference $
 - After analyzing a visualization of the top 10 items produced by East African countries, we can observe distinct production patterns. Cassava and products emerges as the dominant product, closely followed by Bananas. Conversely, potatoes and associated products exhibit the lowest production levels among the selected items.
 ### Bivariate Analysis 
@@ -97,6 +98,13 @@ The SARIMA model incorporates three main components: autoregression (AR), differ
 The web application is built using Streamlit, a Python framework for creating interactive data applications. The purpose of the project is to visualize and analyze the forecasted supply chain data for different countries.
 The application allows the user to select a country from a dropdown menu and enter the start year and end year for the forecast. After clicking the "show forecast" button, the application displays line graphs showing the import and export quantities as well as the domestic supply quantity and production for the selected country and specified time period. Additionally, a table with the forecasted values is shown.
   ![image (2)](https://github.com/Muramati/FAOStat-Dataset-Time-Series/assets/99483846/11432c70-c3ef-4945-9689-b49acc6e6374)
+### Project authors 
+##### Agape Gichuki
+##### Marwa Osman 
+##### William Onsare
+##### Dorine Langat
+##### Nyokabi Waiganjo 
+##### Mary Wairimu
 
 
 
