@@ -98,12 +98,12 @@ The web application is built using Streamlit, a Python framework for creating in
 The application allows the user to select a country from a dropdown menu and enter the start year and end year for the forecast. After clicking the "show forecast" button, the application displays line graphs showing the import and export quantities as well as the domestic supply quantity and production for the selected country and specified time period. Additionally, a table with the forecasted values is shown.
   ![image (2)](https://github.com/Muramati/FAOStat-Dataset-Time-Series/assets/99483846/11432c70-c3ef-4945-9689-b49acc6e6374)
 ### Project authors 
-##### Agape Gichuki
-##### Marwa Osman 
-##### William Onsare
-##### Dorine Langat
-##### Nyokabi Waiganjo 
-##### Mary Wairimu
+##### Agape Gichuki : agapegichuki@gmail.com
+##### Marwa Osman : marwaosman9975@gmail.com
+##### William Onsare : williammorara28@gmail.com
+##### Dorine Langat : dorinelangat7@gmail.com
+##### Nyokabi Waiganjo  : waiganjo.s.nyokabi@gmail.com
+##### Mary Wairimu : mungaramary2@gmail.com 
 
 
 
