@@ -1,4 +1,5 @@
 ### FAOStat-Dataset-Time-Series
+##### project authors : DATA JEDIS 
 # Forecasting Food Production: Analyzing Trends, Challenges, and Opportunities in East Africa
 
 ![yfood_outlook_june23_pr_banner](https://github.com/Muramati/FAOStat-Dataset-Time-Series/assets/70520367/30563c28-b0dd-4a1f-ad03-4e45385f8d1b)
@@ -8,74 +9,104 @@
 
 ### Overview
 
-Kenya's food production plays a crucial role in ensuring food security for its population. The country's agricultural sector employs a significant portion of the population and contributes to the national economy. Kenya is known for its diverse agricultural activities, including crop cultivation, livestock rearing, and fisheries.
+East African food production plays a crucial role in ensuring food security for its population. The country's agricultural sector employs a significant portion of the population and contributes to the national economy. The countries are  known for their diverse agricultural activities, including crop cultivation, livestock rearing, and fisheries.
 
-In recent years, Kenya has made strides to improve food production through various initiatives, including promoting modern farming techniques, investing in irrigation infrastructure, and supporting small-scale farmers. These efforts have led to increased agricultural productivity and improved crop yields.
+In recent years,  strides have been made  to improve food sufficiency  through various initiatives, including promoting modern farming techniques. The efforts have led to increased agricultural productivity and improved crop yields. The Supply Chain Analytics Forecast aims to assist users in analyzing and predicting supply chain dynamics for selected countries, enabling better decision-making and planning in the field of supply chain management.
 
-However, despite these advancements, food production in Kenya still faces challenges that affect its sufficiency. Climate change, unpredictable weather patterns, and recurrent droughts pose significant risks to agricultural productivity. Additionally, limited access to affordable inputs, inadequate infrastructure, and post-harvest losses contribute to the food production challenges.
+The project aims to provide insights into the supply chain dynamics of different countries, specifically focusing on metrics such as import quantity, export quantity, domestic supply quantity, and production. It can be used by governments, businesses, and other organizations to make informed decisions about the supply chain of agricultural commodities. The project willl also  help users to identify potential shortages or surpluses of commodities, and to make plans to mitigate these risks. The forecast helps users to track the performance of the supply chain over time, and to identify areas where improvements can be made.
 
-As a result, Kenya occasionally experiences food shortages and relies on imports to meet the country's food demands. Despite efforts to enhance domestic food production, there is a need for further investment in sustainable agriculture, resilient farming practices, and improved market access to ensure long-term food sufficiency in Kenya.
-
-Overall, while Kenya has made progress in food production, there is still work to be done to achieve full sufficiency. Continued efforts to address challenges and invest in sustainable agricultural practices are essential to enhance food security and meet the growing demands of the population.
-
-### Problem Statement
-
-The current state of food production in Kenya poses challenges to ensuring sufficient food supply for the growing population. Despite efforts to improve agricultural productivity, factors such as climate change, unpredictable weather patterns, and limited access to resources continue to impact the ability to accurately forecast and meet the population's food needs.
-
-There is a need for a reliable prediction model that can forecast food production in Kenya to assess whether it will be sufficient to meet the population's requirements. Such a model would help policymakers, agricultural stakeholders, and government agencies make informed decisions regarding food security, resource allocation, and import/export planning.
-
-By leveraging historical data, real-time information, and advanced analytical techniques, the model would provide valuable insights into future food production levels, helping to identify potential shortfalls or surpluses.
-
-The development of a prediction model would support proactive planning and decision-making processes, allowing stakeholders to take appropriate measures in advance to bridge any potential food supply gaps. It would aid in optimizing resource allocation, promoting sustainable farming practices, and implementing targeted interventions to ensure food sufficiency for Kenya's population.
-
-Therefore, the problem at hand is the lack of a reliable prediction model that accurately forecasts food production, which hinders the ability to determine whether it will be sufficient to meet the growing population's needs. Developing such a model would greatly contribute to enhancing food security, optimizing resource allocation, and ensuring the well-being of the Kenyan population.
 
 ### Objectives
+#### Main objectives 
+1. Forecasting Food supply balances : The primary objective of the model is to accurately predict food supply balances  in Kenya. By analyzing historical data, current conditions, and relevant variables, the model aims to provide forecasts that reflect the expected domestic supply quantity, imports and exports over a range of years.
+#### Specific objectives 
 
-The objectives of the prediction model for food production in Kenya are as follows:
+1. To Assess Food Sufficiency: The model seeks to determine whether the projected food supply will be sufficient to meet the needs of the population. It aims to assess the adequacy of food supply in order to identify potential shortfalls or surpluses.
+   
+2. To Inform Decision-Making: The model aims to provide valuable insights to policymakers, government agencies, and agricultural stakeholders. By offering reliable predictions, the model can inform decision-making processes related to resource allocation, import/export planning, and interventions to ensure food security.
 
-1. Forecasting Food Production: The primary objective of the model is to accurately predict food production levels in Kenya. By analyzing historical data, current conditions, and relevant variables, the model aims to provide forecasts that reflect the expected output of crops, livestock, and other food sources.
+3. To Optimize Resource Allocation: The model aims to optimize the allocation of resources by identifying times of potential food shortages or surpluses. This can help in planning for the future. 
 
-2. Assessing Food Sufficiency: The model seeks to determine whether the projected food production will be sufficient to meet the needs of the population. It aims to assess the adequacy of food supply in order to identify potential shortfalls or surpluses.
+4. To Enhance Food Security: Ultimately, the objective of the prediction model is to contribute to improving food security in East Africa. By accurately forecasting food production and assessing sufficiency, the model aims to support proactive measures that ensure a consistent and adequate food supply for the growing population.
 
-3. Informing Decision-Making: The model aims to provide valuable insights to policymakers, government agencies, and agricultural stakeholders. By offering reliable predictions, the model can inform decision-making processes related to resource allocation, import/export planning, and interventions to ensure food security.
+These objectives collectively aim to provide valuable insights, aid decision-making processes, and contribute to long-term food security in East Africa.
 
-4. Optimizing Resource Allocation: The model aims to optimize the allocation of resources by identifying areas of potential food shortages or surpluses. This can help in directing resources, such as irrigation, fertilizers, and agricultural investments, to areas that require them the most.
-
-5. Promoting Sustainable Farming Practices: By considering various factors that impact food production, such as climate conditions and agricultural practices, the model can promote sustainable farming techniques. It can provide recommendations for resilient and environmentally-friendly practices that enhance productivity while minimizing negative impacts.
-
-6. Enhancing Food Security: Ultimately, the objective of the prediction model is to contribute to improving food security in Kenya. By accurately forecasting food production and assessing sufficiency, the model aims to support proactive measures that ensure a consistent and adequate food supply for the growing population.
-
-These objectives collectively aim to provide valuable insights, aid decision-making processes, and contribute to long-term food security in Kenya.
-
+### Success metrics
+- Root Mean Square Error (RMSE): RMSE calculates the square root of the average squared difference between the predicted values and the actual values. It gives an estimate of the model's prediction error, with lower values indicating better performance.
 ### Data Understanding
 
 The data from this project comes from the FAOStas site.
 [Food Balances](https://www.fao.org/faostat/en/#data/SCL)
 
-The CSV has the following columns:
+A snippet of some of the  columns:
 
-1. Area Code (M49): This column represents the standard area codes used by the United Nations for statistical purposes. The codes are developed and maintained by the United Nations Statistics Division.
+1. Area: This column contains the country name or area name.
+ 
+2. Element: This column provides a description or name for the entities or categories represented by the element code.
 
-2. Area: This column contains the country name or area name corresponding to the data.
+3. Item: This column contains the product or item classification name.
 
-3. Element Code: The element code represents the entities or categories based on which the data is collected. It is a numerical code used to identify specific elements.
+4. Year: This column represents the year when the data was collected or recorded.
 
-4. Element: This column provides a description or name for the entities or categories represented by the element code.
+5. Unit:  specifies the measurement unit  for the corresponding item 
 
-5. Item Code (CPC): The item code refers to the Central Product Classification code assigned to a specific product or item. It is a standardized code used for classification purposes.
+6. Value: This column provides the numerical value associated with a specific item, measured in the units specified in the "Unit" column. It represents the quantity or magnitude of the item for a given year and area.
+    
+### Explanatory Data Analysis
+##### Top 10 Items Produced in Eastern Africa
+![1](https://github.com/Muramati/FAOStat-Dataset-Time-Series/assets/99483846/7c324e49-febb-44e6-8f47-fcb008560297)
 
-6. Item: This column contains the product or item classification name. It is based on the Central Product Classification (CPC) system promulgated by the United Nations Statistical Commission.
+$ inference $
+- After analyzing a visualization of the top 10 items produced by East African countries, we can observe distinct production patterns. Cassava and products emerges as the dominant product, closely followed by Bananas. Conversely, potatoes and associated products exhibit the lowest production levels among the selected items.
+### Bivariate Analysis 
+![import](https://github.com/Muramati/FAOStat-Dataset-Time-Series/assets/99483846/5cdfb8dd-0b22-4458-ae20-ad23503c4f9a)
+$ inference $   
+- The bar graph represents the comparison between the import quantity and export quantity in the dataset. The x-axis shows the two elements: "Import Quantity" and "Export Quantity." The y-axis represents the corresponding quantities.
 
-7. Year: This column represents the year when the data was collected or recorded.
+- The bars in the graph depict the quantities, with the cyan color indicating the import quantity and the magenta color indicating the export quantity.
 
-8. Unit: The unit column specifies the measurement unit used for the corresponding item. It indicates the quantity or scale in which the data is measured (e.g., kilograms, tonnes, liters).
+- This graph provides a visual representation of the difference between the import and export quantities, allowing for easy comparison between the two elements.
+### Multivariate Analysis
+![line pl](https://github.com/Muramati/FAOStat-Dataset-Time-Series/assets/99483846/9b7136a5-289a-42e5-991b-daf69090359a)
+Overall, the plots provide an overview of the growth patterns in domestic supply quantity for these countries over the specified time period. They highlight the variations and trends in supply levels, allowing for a comparison between the different countries.
+##### Preprocessing Kenyan dataset for  modeling  
 
-9. Value: This column provides the numerical value associated with a specific item, measured in the units specified in the "Unit" column. It represents the quantity or magnitude of the item for a given year and area.
+![LINES](https://github.com/Muramati/FAOStat-Dataset-Time-Series/assets/99483846/a149e6be-0b2b-4340-9d4b-072a4284d44d)
 
-10. Flag: The flag column describes how the values in the dataset were acquired by the FAO (Food and Agriculture Organization of the United Nations). The flag values indicate the data's source or quality.
+- There is an upward trend over the years across all the elements except for exports which seem to be stagnant
+##### Correlation matrix kenya
 
-11. Flag Description: This column provides additional information or descriptions related to the flags used in the dataset. The "E" flag represents estimated values, the "X" flag indicates figures from international organizations, and the "I" flag denotes imputed values.
+![Corr](https://github.com/Muramati/FAOStat-Dataset-Time-Series/assets/99483846/df7050f0-2136-4df5-b135-78b641290021)
+The elements are highly correlated because they affect each other
+#### Modelling 
+### Baseline model
+Baseline models serve as a reference point or a benchmark against which the performance of more complex or sophisticated models can be compared. They provide a simple and straightforward approach to modeling a problem, often with minimal assumptions or complexity.
+Overall, baseline models offer a simple starting point and serve as a valuable reference for understanding and assessing the performance of more complex models. They provide a baseline against which advancements in modeling techniques and feature engineering can be measured, guiding the iterative process of model development and improvement.
+Our baseline model is the AR model 
+### AR Model 
+Predicts the future values of a variable based on its own past values. the AR model can estimate future values and understand how the series evolves over time.
+### Arima model 
+A time series forecasting model that combines autoregressive (AR) and moving average (MA) components along with differencing to handle non-stationary data. By incorporating autoregressive, moving average, and differencing components, ARIMA models can capture both short-term and long-term patterns in the data
 
-In summary, the dataset contains food balance data from different countries or areas, including information about the area, element, item, year, measurement unit, value, and data quality flags. The dataset helps in understanding food consumption, production, and other related factors for various products and regions over time.
+### SARIMA MODEL 
+The SARIMA (Seasonal AutoRegressive Integrated Moving Average) model is a popular time series forecasting method that extends the capabilities of the ARIMA model to handle seasonal patterns. It is particularly useful when dealing with data that exhibits both trend and seasonal components.
+
+The SARIMA model incorporates three main components: autoregression (AR), differencing (I), and moving average (MA). Additionally, it includes a seasonal component represented by an additional set of AR, I, and MA terms.
+
+### Deployment 
+The web application is built using Streamlit, a Python framework for creating interactive data applications. The purpose of the project is to visualize and analyze the forecasted supply chain data for different countries.
+The application allows the user to select a country from a dropdown menu and enter the start year and end year for the forecast. After clicking the "show forecast" button, the application displays line graphs showing the import and export quantities as well as the domestic supply quantity and production for the selected country and specified time period. Additionally, a table with the forecasted values is shown.
+  ![image (2)](https://github.com/Muramati/FAOStat-Dataset-Time-Series/assets/99483846/11432c70-c3ef-4945-9689-b49acc6e6374)
+### Project authors 
+##### Agape Gichuki : agapegichuki@gmail.com
+##### Marwa Osman : marwaosman9975@gmail.com
+##### William Onsare : williammorara28@gmail.com
+##### Dorine Langat : dorinelangat7@gmail.com
+##### Nyokabi Waiganjo  : waiganjo.s.nyokabi@gmail.com
+##### Mary Wairimu : mungaramary2@gmail.com 
+
+
+
+
+
 
