@@ -98,13 +98,20 @@ The SARIMA model incorporates three main components: autoregression (AR), differ
 The web application is built using Streamlit, a Python framework for creating interactive data applications. The purpose of the project is to visualize and analyze the forecasted supply chain data for different countries.
 The application allows the user to select a country from a dropdown menu and enter the start year and end year for the forecast. After clicking the "show forecast" button, the application displays line graphs showing the import and export quantities as well as the domestic supply quantity and production for the selected country and specified time period. Additionally, a table with the forecasted values is shown.
   ![image (2)](https://github.com/Muramati/FAOStat-Dataset-Time-Series/assets/99483846/11432c70-c3ef-4945-9689-b49acc6e6374)
+### Conclusions
+ - After analyzing a visualization of the top 10 items produced by East African countries, we can observe distinct production patterns. Cassava and products emerges as the dominant product, closely followed by Bananas. Conversely, potatoes and associated products exhibit the lowest production levels among the selected items.
+- Generally the amount of imports in the Eastern African countries is higher than the exports .
+For the domestic supply quantity the trends and growth patterns for Tanzania, Uganda, Kenya, and Rwanda exhibits unique patterns, the observations suggest enhanced agricultural productivity and improved food availability within the respective nations. However, fluctuations and variations indicate that there may still be challenges to address in achieving consistent and sustained food growth and security
+- In conclusion the SARIMA model shows relatively low RMSE values for Domestic Supply Quantity, Production, and Export Quantity, indicating good predictive accuracy. Overally, the SARIMA model is effective in forecasting Domestic Supply Quantity, Production, and Export Quantity.acy. Overally, the SARIMA model is effective in forecasting Domestic Supply Quantity, Production, and Export Quantity.
+ 
+  
 ### Project authors 
-##### Agape Gichuki
-##### Marwa Osman 
-##### William Onsare
-##### Dorine Langat
-##### Nyokabi Waiganjo 
-##### Mary Wairimu
+##### Agape Gichuki : agapegichuki@gmail.com
+##### Marwa Osman : marwaosman9975@gmail.com
+##### William Onsare : williammorara28@gmail.com
+##### Dorine Langat : dorinelangat7@gmail.com
+##### Nyokabi Waiganjo  : waiganjo.s.nyokabi@gmail.com
+##### Mary Wairimu : mungaramary2@gmail.com 
 
 
 
